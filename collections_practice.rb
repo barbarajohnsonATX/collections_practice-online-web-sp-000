@@ -24,12 +24,10 @@ end
 def kesha_maker(array)
   new_array = []
   new_name = ""
-  array.collect do |name|
-    #new_name = name 
-   # new_name[2] = "$"
-      name[2] = "$"
-
-    #new_array << new_name
+  array.each do |name|
+    new_name = name 
+    new_name[2] = "$"
+    new_array << new_name
   end 
 end 
     
