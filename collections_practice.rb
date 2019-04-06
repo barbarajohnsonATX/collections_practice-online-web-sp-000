@@ -32,9 +32,7 @@ end
    new_array = [] 
    array.collect do |name|
      if name.start_with?("a")
-        name 
-      else 
-        name = ""
+        new_array << name 
       end 
     end 
   # new_array
