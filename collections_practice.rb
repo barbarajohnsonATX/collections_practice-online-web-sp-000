@@ -32,10 +32,10 @@ end
    new_array = [] 
    array.collect do |name|
      if name.start_with?("a")
-        new_array << name 
+        name 
       end 
     end 
-   new_array
+  # new_array
  end 
  
 def sum_array(array)
