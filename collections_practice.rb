@@ -25,10 +25,11 @@ def kesha_maker(array)
   new_array = []
   new_name = ""
   array.each do |name|
-    new_name = name 
-    new_name[2] = "$"
-    new_array << new_name
+  #  new_name = name 
+    name[2] = "$"
+    #new_array << new_name
   end 
+  array 
 end 
  
  def find_a(array)
